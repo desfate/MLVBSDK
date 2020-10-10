@@ -14,7 +14,7 @@
 
 #### 腾讯小直播需要修改的部分
 
-<u>代理里都用fixme注释了，可以直接搜索</u>
+<u>代码里都用fixme注释了，可以直接搜索</u>
 
 1）manifest.xml 的 TCCameraAnchorActivity（主播）， TCAudienceActivity（观众）
 
