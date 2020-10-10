@@ -75,5 +75,6 @@ dependencies {
     compile project(':beautysettingkit')
     // 音效面板
     compile project(':audioeffectsettingkit')
+    implementation 'com.github.desfate:liveKit:0.76'
 }
 

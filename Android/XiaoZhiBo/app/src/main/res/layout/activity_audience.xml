@@ -6,12 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.tencent.rtmp.ui.TXCloudVideoView
-        android:id="@+id/anchor_video_view"
+<!--    <com.tencent.rtmp.ui.TXCloudVideoView-->
+<!--        android:id="@+id/anchor_video_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:visibility="gone"/>-->
+
+    <github.com.desfate.livekit.LivePlayView
+        android:id="@+id/anchor_play_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:visibility="gone"/>
+        />
 
     <ImageView
         android:id="@+id/audience_background"

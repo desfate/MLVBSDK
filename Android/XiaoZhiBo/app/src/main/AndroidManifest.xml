@@ -69,6 +69,7 @@
             android:name=".audience.TCAudienceActivity"
             android:screenOrientation="portrait"
             android:theme="@style/PlayerTheme"
+            android:configChanges="keyboardHidden|orientation"
             android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name=".playback.TCPlaybackActivity"
@@ -78,7 +79,8 @@
         <activity
             android:name=".anchor.TCCameraAnchorActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustNothing" />
+            android:windowSoftInputMode="adjustNothing"
+            android:configChanges="keyboardHidden|orientation" />
         <activity
             android:name=".anchor.screen.TCScreenAnchorActivity"
             android:theme="@style/RecordActivityTheme"
