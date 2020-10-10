@@ -28,7 +28,7 @@
 // ！！！ 保证推流前这两个属性必须设置
 TXLivePushConfig config = mTXLivePusher.getConfig();
 config.setCustomModeType(TXLiveConstants.CUSTOM_MODE_VIDEO_CAPTURE);    //使用自定义视频采集
-             config.setVideoResolution(TXLiveConstants.VIDEO_RESOLUTION_TYPE_1920_1080);  //设置推流视频分辨率
+ config.setVideoResolution(TXLiveConstants.VIDEO_RESOLUTION_TYPE_1920_1080);  //设置推流视频分辨率
 
 // 原有的这个要去掉
 mTXLivePusher.startCameraPreview(view)
@@ -56,7 +56,7 @@ mTXLivePusher.startCameraPreview(view)
                                
  //setPlayerView必须传null
  mTXLivePlayer.setPlayerView(null);
-                                                                                mTXLivePlayer.setSurface(view.getmSurface());  // 绑定自己的surface
+ mTXLivePlayer.setSurface(view.getmSurface());  // 绑定自己的surface
                           
 ```
 
